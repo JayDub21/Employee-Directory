@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/JayDub21/Employee-Directory/issues"
   },
-  "homepage": "https://github.com/JayDub21/Employee-Directory#readme"
+  "homepage": "https://github.com/JayDub21/Employee-Directory#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.1"
+  }
 }
