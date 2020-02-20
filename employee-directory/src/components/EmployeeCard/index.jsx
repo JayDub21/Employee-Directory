@@ -1,8 +1,13 @@
 import React, { Component } from "react";
+import "./style.css";
 
 class Employee extends Component {
   render() {
-    return <h1>Hello World!</h1>;
+    return (
+      <div>
+        <h1>Hello World!</h1>
+      </div>
+    );
   }
 }
 
