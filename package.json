@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/JayDub21/Employee-Directory#readme",
   "dependencies": {
-    "bootstrap": "^4.1.1"
+    "bootstrap": "^4.3.1"
   }
 }
