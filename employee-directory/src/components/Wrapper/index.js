@@ -5,6 +5,7 @@ function Wrapper(props) {
   return (
     <div className="wrapper">
       <h1>Employee Tracker</h1>
+      {props.children}
     </div>
   );
 }

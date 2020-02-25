@@ -1,15 +1,15 @@
 import React from "react";
 import "./App.css";
 import Wrapper from "./components/Wrapper";
-import Employee from "./components/Employee";
+import Table from "./components/Table";
 import { Container } from "@material-ui/core";
 
 function App() {
   return (
-    <div clasName="App">
+    <div className="App">
       <Wrapper>
         <Container fixed>
-          <Employee />
+          <Table />
         </Container>
       </Wrapper>
     </div>
