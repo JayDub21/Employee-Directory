@@ -1,25 +1,18 @@
 import React from "react";
 import "./App.css";
-import Employee from "./components/EmployeeCard/index.jsx";
 import Wrapper from "./components/Wrapper";
-import Title from "./components/Title";
+import Employee from "./components/Employee";
+import { Container } from "@material-ui/core";
 
 function App() {
   return (
-    <Wrapper>
-      <Title>Employee Directory</Title>
-      {this.state.friends.map(friend => (
-        <Employee
-          removeFriend={this.removeFriend}
-          id={friend.id}
-          key={friend.id}
-          name={friend.name}
-          image={friend.image}
-          occupation={friend.occupation}
-          location={friend.location}
-        />
-      ))}
-    </Wrapper>
+    <div clasName="App">
+      <Wrapper>
+        <Container fixed>
+          <Employee />
+        </Container>
+      </Wrapper>
+    </div>
   );
 }
 
