@@ -8,6 +8,7 @@
   justify-content: space-around;
   align-content: flex-start;
   overflow: auto;
+  width: 100%;
 }
 h1 {
   padding: 40px;
